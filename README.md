@@ -1,3 +1,6 @@
 # DA-learning-path
 
-dsdsq# ldmf
+
+
+Today: 
+
