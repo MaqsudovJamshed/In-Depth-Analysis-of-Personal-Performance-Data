@@ -25,3 +25,27 @@ Today I coded on the project of the airline and only the 7th and 8th task is lef
 Today I am working on the codecademy taks 7 and 8 to complete it today. It takes too much time to upload and work there. From now on I am 
 thinking where I dy any task I fist complete it in jupyter notebook and at codecademy one by one. In order to upload also my work in 
 codecademy.
+
+AI feedback on my project:
+
+
+1. Ensure that all tasks are completed as per the project requirements. For instance, Task 6 could include more analysis on how the 
+number of passengers changes with flight length, rather than just visualizing it. 
+
+(meaining : I need to digg deeper to get more insights about the  issue)
+
+
+2. Consider using functions to encapsulate repetitive code blocks, such as plotting functions. This will make your code more modular
+and easier to maintain.
+
+example: 
+
+def plot_histogram(data, title, xlabel, ylabel):
+    sns.histplot(data)
+    plt.title(title)
+    plt.xlabel(xlabel)
+    plt.ylabel(ylabel)
+    plt.show()
+    plt.clf()
+
+plot_histogram(flight.coach_price, "1 : Boxplot of Coach Price", "Price", "Frequency")
