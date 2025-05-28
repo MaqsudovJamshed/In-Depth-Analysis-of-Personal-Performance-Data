@@ -49,3 +49,8 @@ def plot_histogram(data, title, xlabel, ylabel):
     plt.clf()
 
 plot_histogram(flight.coach_price, "1 : Boxplot of Coach Price", "Price", "Frequency")
+
+
+28.05
+
+Today I had an hour of studying . 
