@@ -95,6 +95,26 @@ I skipped one day but it was great day did 2h and 20minutes of deep work and I s
 that's really important.
 
 
+25.07
+
+Today is my day off but I am commited to dedicate 6h of work in my project. I am starting it. Lets go!
+
+_____________________________________________________________________________________________________________
+
+listings_lisbon.loc[:,'availability_range'] = pd.cut(
+    listings_lisbon['availability_365'], 
+    bins=[-1,0,180, 364, 365],
+    labels = ['Unavailable', 'Seasonal', 'Mostly Available', 'Always Available']
+)
+
+_________________________________________________________________________________________________________________
+
+My goal is at the moment to understand this code. 
+
+So to my knowledge we are accessing the dataframe listings_lisbon here using the (,loc) indexer to create a new column 
+called availability_range and choosing the all rows . By the pd.cut() function of the pandas library to categorize the availablity_365
+column. 
+
 
 
 
