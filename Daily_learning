@@ -116,5 +116,11 @@ called availability_range and choosing the all rows . By the pd.cut() function o
 column. 
 
 
+26.07
+
+Today is another day I am working  on my project. I am stil doing an "univariate analysis" of the availability_265 column meaning. Analyzing
+the yearly availibilty of the column. Today in the morning I finished the visualization part. At the same time I am curious abou the 
+technical part of the solution. I am trying to understand every bits of the code what it does for instance.
+
 
 
