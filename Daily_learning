@@ -202,7 +202,14 @@ on the scatterplot ?
 6. Understand the purpose of the scatterplot more ? 
 
 -A scatterplot normally has pairs (x, y), and each dot represents both values together, not separate dots for each variable.
--Continue : How bring me an example , continue from here ???????????????
+-Continue : How bring me an example , overall I got it. 
+
+7. So now at the moment i have the plot which has a lot of data points, visually it seems that the listings from 0 to 150 have high 
+reviews since this is included in the lower price categoty after the increase in price the reviews decline, but its a lot of data points
+I dont say for sure the variables relationship. 
+
+8. Now I did the random sampling, how would get the correlation , from the noice. now I would have 63308 data points which is 10% of the 
+data, which correlation I use to test it ? 
 
 
 
