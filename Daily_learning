@@ -156,7 +156,53 @@ Tomorrow is another day.
 Today I am learningn in the meantime about standard deviation in statistics. In the same time while coding. I got some ideas about it.
 Still working on my bevariate analysis. 
 
+6.08 
+So basically I skipped only yesterday by not doing the work. Day 4th of august but did not tegister here. Today I am working on the 
+scatterplot. How two variables are analyzed in scatterplot. I am really confused with my scatterplot result, these are the questions allow
+me step by step to understand :
 
+1. Are the two columns that I have ready for scatterplot ? how can I check them ? 
+
+        The fist thing is to check the data types of price_per_night and number_of_reviews, the result is PRICE_PER_NIGH is FLOAT64 and
+NUMBER_OF_REVIEWS is INT64.
+
+Feedback:
+- Having one column as float and the other as integer is completely fine for scatterplots.
+- What matters more is that the columns contain clean numeric data without strings or missing values.
+
+2. Check for missing values ? 
+        There is not missing values.
+
+3.Check for extreme outliers
+
+    price_per_night  number_of_reviews
+count    645506.000000      645506.000000
+mean         63.210394         185.849895
+std         224.025612         154.457660
+min           0.226667           1.000000
+25%          28.333333          69.000000
+50%          42.000000         147.000000
+75%          69.500000         266.000000
+max       10010.000000        1718.000000
+
+    The shows that there are some extreme values on both columns in price_per_night and number_of_reviews. The quesion is what I need
+to do to understand better the relationship between this 2 variables .
+
+4. Deal with Extreme Outliers ? 
+    My answer to dealing with extreme outliers are to use the quantile function and filter the only 99% of the values in each column. Then
+plot the scatter. What would you say to this. And also is it much practical to save the filtered data in a new variable or I can filter it
+on the scatterplot ?
+
+5. Isnt there a problem when the price have float value like 0.4 or 0.6 and reviews interger 1,2,4 and etc. 
+? Won't it give us inaccurate plot?
+                Feedback: 
+- Float for price + int for reviews = perfectly fine for scatterplots.
+- Plotting will be accurate, because it’s just numeric coordinates.
+
+6. Understand the purpose of the scatterplot more ? 
+
+-A scatterplot normally has pairs (x, y), and each dot represents both values together, not separate dots for each variable.
+-Continue : How bring me an example , continue from here ???????????????
 
 
 
