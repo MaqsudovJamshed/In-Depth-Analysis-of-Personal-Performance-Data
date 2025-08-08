@@ -211,6 +211,38 @@ I dont say for sure the variables relationship.
 8. Now I did the random sampling, how would get the correlation , from the noice. now I would have 63308 data points which is 10% of the 
 data, which correlation I use to test it ? 
 
+                                                        8/08/25
+    Today is another day of august I am stuck in the bevariate analysis of two variabels. At the moment I am plotting price and 
+availability_365 columns to check their relationship. 
+
+1. Why my price per night have strange minimum because  I did the following : listings_lisbon.loc[:,'price_per_night']=listings_lisbon
+'price'] / listings_lisbon['minimum_nights']. To get much accurate pice number I divided the price to minimum nights for instance if there
+was price 100 and the minimum nights 2 the price_per_night gave me 50. Correct me in this part if I am on the right pay or to draw the
+relationship its better to stick to general price column and why ?
+
+2. Now that we filtered to max 30 minimum noghts so we know that therr is not going to be strange numbers,
+why are we still filtering the price_per_night >10 still, and if the 99% of the 
+price_per_night lies to 305 why filter to 200 ? and why avalibilty >10 ?
+
+My ovservation:
+
+1. The data points are partially clustered around 150 in the price part mostly,
+to some extent there is a trend upward but there are a lot data poitns that is not
+very clear. 
+
+2. Probably there is slight positive correlation. The plot shows with the trend line
+is going upward slightly due to the increase of price and availabilty simultaniously. 
+
+3. Certainly there are danse groups around price 0 to 100, very densly like . 
+
+4. Mainly the outliers are the far from the main cluster which have high price, and
+also high availability. 
+
+5. The data is I would say mostly concentrated in a small price range which is 
+around 0 to 100 , the availabity is skewed toward high mea. 
+
+Simple question: Fist when we plot a scatterplot and the data points are more than 10K, should I immediatly sample it to 3K, then interpret
+it and then  check the statisticall correlatio with Pearson and Spearman as a rule ? or there is another way of approaching ? 
 
 
 
