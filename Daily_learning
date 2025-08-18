@@ -245,6 +245,12 @@ Simple question: Fist when we plot a scatterplot and the data points are more th
 it and then  check the statisticall correlatio with Pearson and Spearman as a rule ? or there is another way of approaching ? 
 
 
+18.08.25
+
+I am puzzled today with the categorical/binary variable how do generally it is measured over time ? So I have a date column, the metric name
+which consist of Yes and No. I just want to understand the trends of the yes and no over time.
+
+Got it. So the the planned the day is done! I did it. 
 
 
 
